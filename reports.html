@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Usage Reports</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Water Usage Reports</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="usage.html">Usage Data</a></li>
+            <li><a href="reports.html">Reports</a></li>
+            <li><a href="admin.html">Admin</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Generate Reports</h2>
+            <form id="report-form">
+                <label for="start-date">Start Date:</label>
+                <input type="date" id="start-date" name="start-date">
+                <label for="end-date">End Date:</label>
+                <input type="date" id="end-date" name="end-date">
+                <button type="submit">Generate Report</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Water Management System</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
